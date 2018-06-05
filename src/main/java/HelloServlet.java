@@ -14,6 +14,8 @@ public class HelloServlet extends HttpServlet{
             response.getWriter().println(new Date().toLocaleString());
         } catch (IOException e) {
             // TODO Auto-generated catch block
+
+
             e.printStackTrace();
         }
     }
